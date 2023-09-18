@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext);
+// @import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext);
+// @import url(https://db.onlinewebfonts.com/c/e1c54273e7b240a0a0f62221e243ab69?family=Newtown+Italic+V1);
 :root {
   height: 100%;
   width: 100%;
   overflow: hidden;
   overflow-y: scroll;
-  font-family: Nunito;
+  font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   cursor: default;
@@ -64,7 +65,7 @@ body {
       border-radius: 4px; /* закруглені кути "ползунка" */
   }
   &::-webkit-scrollbar-track {
-      background-color: rgb(255, 166, 0); /* Задайте колір поля скролбара */
+      background-color: rgba(255, 166, 0, 0); /* Задайте колір поля скролбара */
   }
   scroll-behavior: smooth; /* Додаємо плавність скроллу */
   .root {
