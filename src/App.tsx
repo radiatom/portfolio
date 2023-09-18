@@ -7,7 +7,6 @@ function App() {
     <div className='app'>
       <Header/>
       <Description/>
-      <Description/>
     </div>
   )
 }
